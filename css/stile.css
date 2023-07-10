@@ -27,7 +27,7 @@ main{
 section{
   margin-bottom: 20px;
 }
-
+/* section titolo */
 .titolo span{
   color: grey;
   font-size: 0.8rem;
@@ -45,6 +45,41 @@ section{
   color: black;
   font-weight: 400;
 }
+/* section text */
+
+/* section list */
 .list{
   margin-left: 15px;
+}
+/* section table */
+thead{
+  background-color: rgb(035, 169, 229);
+  color: white;
+
+}
+.blue{
+  background-color: rgb(177, 229, 242);
+}
+
+/* interesi */
+.interesi{
+  color: gray;
+}
+.image{  
+  width: 400px;
+  height: 300px;
+  background-size: cover;
+  margin-bottom: 20px;
+  position: relative;}
+.monitor{
+  background-image: url(../img/monitor.jpg);
+}
+.graph{
+  background-image:url(../img/graph.jpg);
+}
+.titolo-foto{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
 }
