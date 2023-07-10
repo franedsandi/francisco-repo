@@ -37,6 +37,9 @@ section{
 .titolo .autore {
   color: rgb(078, 160, 255);
 }
+.giallo{
+  background-color: yellow;
+}
 
 .info-fotos{
   margin-bottom: 20px;
@@ -52,6 +55,16 @@ section{
   margin-left: 15px;
 }
 /* section table */
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+.big{
+  width: 40%;
+}
+.small{
+  width: 30%;
+}
 thead{
   background-color: rgb(035, 169, 229);
   color: white;
