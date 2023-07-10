@@ -39,7 +39,9 @@ section{
 .titolo .autore {
   color: rgb(078, 160, 255);
 }
-
+.tim-fotos .foto{
+  height: 250px;
+}
 .info-fotos{
   margin-bottom: 20px;
 }
@@ -82,7 +84,7 @@ thead{
 }
 .image{  
   width: 400px;
-  height: 300px;
+  height: 250px;
   background-size: cover;
   margin-bottom: 20px;
   position: relative;}
