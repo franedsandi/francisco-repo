@@ -10,6 +10,7 @@
   height: 200px;
   position:relative
 }
+
 .logo img {
   width: 400px;
   position: absolute;
@@ -22,8 +23,9 @@ main{
   margin-left: 10px;
   margin-top: 10px;
 }
-.container{
-  margin-bottom: 10px;
+
+section{
+  margin-bottom: 20px;
 }
 
 .titolo span{
@@ -31,9 +33,18 @@ main{
   font-size: 0.8rem;
   font-weight: bold;
 }
+
 .titolo .autore {
   color: rgb(078, 160, 255);
 }
+
 .info-fotos{
-  font-size: 0.8rem;
+  margin-bottom: 20px;
+}
+.info-fotos span{
+  color: black;
+  font-weight: 400;
+}
+.lista{
+  margin-left: 15px;
 }
