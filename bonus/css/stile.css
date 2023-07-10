@@ -87,7 +87,8 @@ thead{
   height: 250px;
   background-size: cover;
   margin-bottom: 20px;
-  position: relative;}
+  position: relative;
+}
 .monitor{
   background-image: url(../../img/monitor.jpg);
 }
