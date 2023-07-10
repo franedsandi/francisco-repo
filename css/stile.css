@@ -3,3 +3,15 @@
   margin: 0;
   padding: 0;
 }
+.logo{
+  background-color: rgb(078, 160, 255);
+  background-image: url(../img/pattern.png);
+  height: 200px;
+  position:relative
+}
+.logo img {
+  width: 400px;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
