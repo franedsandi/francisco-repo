@@ -28,13 +28,14 @@ section{
   margin-bottom: 20px;
 }
 /* section titolo */
-.titolo span{
+.top p{
   color: grey;
   font-size: 0.8rem;
   font-weight: bold;
+  margin-bottom: 5px;
 }
 
-.titolo .autore {
+.top .autore {
   color: rgb(078, 160, 255);
 }
 .giallo{
@@ -43,8 +44,6 @@ section{
 
 .info-fotos{
   margin-bottom: 20px;
-}
-.info-fotos span{
   color: black;
   font-weight: 400;
 }
@@ -80,19 +79,17 @@ thead{
   color: gray;
 }
 .image{  
-  width: 400px;
-  height: 300px;
+  width: 290px;
+  height: 190px;
   background-size: cover;
   margin-bottom: 20px;
+  padding-top: 20px ;
+  padding-left: 20px;
+  color: white;
 }
 .monitor{
   background-image: url(../img/monitor.jpg);
 }
 .graph{
   background-image:url(../img/graph.jpg);
-}
-.titolo-foto{
-  padding-top: 20px ;
-  padding-left: 20px;
-  color: white;
 }
