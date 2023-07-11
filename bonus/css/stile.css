@@ -8,15 +8,13 @@
 .logo{
   background-color: rgb(078, 160, 255);
   background-image: url(../../img/pattern.png);
-  height: 200px;
-  position:relative
+  height: 150px;
 }
 
 .logo img {
-  width: 400px;
-  position: absolute;
-  left: 15%;
-  bottom: 10px;
+  width: 300px;
+  margin-left: 15%;
+  margin-top: 75px;
 }
 
 /* main */
@@ -87,7 +85,6 @@ thead{
   height: 250px;
   background-size: cover;
   margin-bottom: 20px;
-  position: relative;
 }
 .monitor{
   background-image: url(../../img/monitor.jpg);
@@ -96,8 +93,7 @@ thead{
   background-image:url(../../img/graph.jpg);
 }
 .titolo-foto{
-  position: absolute;
-  top: 20px;
-  left: 20px;
+  padding-top: 20px ;
+  padding-left: 20px;
   color: white;
 }
